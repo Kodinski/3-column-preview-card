@@ -33,7 +33,7 @@ main {
   justify-content: flex-start;
   color: hsla(0, 0%, 100%, 0.75);
   padding: 45px;
-  height: 440px;
+  min-height: 440px;
 }
 
 .card:nth-child(1) {
@@ -85,7 +85,7 @@ main {
   font-size: 15px;
   padding-right: 35px;
   padding-left: 35px;
-  margin-top: auto;
+  margin-top: 25px;
   background-color: hsl(0, 0%, 95%);
   font-family: "Big Shoulders Display", Arial;
   letter-spacing: 0.05em;
@@ -151,4 +151,10 @@ main {
     border-top-right-radius: 8px;
     border-bottom-left-radius: 0px;
   }
+}
+
+@media (min-width:376px) and (max-width: 767px){
+    .more_btn {
+        margin-top: auto;
+      }
 }
