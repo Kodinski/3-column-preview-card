@@ -51,7 +51,7 @@ main {
   font-family: "Big Shoulders Display", Arial;
   margin-top: 40px;
   color: hsl(0, 0%, 95%);
-  font-size: 2em;
+  font-size: 2.2em;
 }
 
 .card p {
@@ -75,7 +75,7 @@ main {
 }
 
 #Luxury {
-  background-color: hsl(179, 100%, 13%);
+  background-color: blue;
 }
 
 .more_btn {
